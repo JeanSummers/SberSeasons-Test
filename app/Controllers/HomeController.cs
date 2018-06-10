@@ -25,7 +25,12 @@ namespace app.Controllers
             return View();
         }
     
-        public IActionResult CustomView()
+        public IActionResult News1()
+        {
+            return View();
+        }
+
+        public IActionResult News2()
         {
             return View();
         }
