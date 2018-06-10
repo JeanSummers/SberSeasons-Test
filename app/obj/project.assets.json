@@ -13130,11 +13130,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Домашний\\Documents\\RedHat App\\s2i-dotnetcore-ex\\app\\Sberbank.csproj",
-      "projectName": "Sberbank",
-      "projectPath": "C:\\Users\\Домашний\\Documents\\RedHat App\\s2i-dotnetcore-ex\\app\\Sberbank.csproj",
+      "projectUniqueName": "C:\\dev\\SberSeasons\\app\\sberseasons.csproj",
+      "projectName": "sberseasons",
+      "projectPath": "C:\\dev\\SberSeasons\\app\\sberseasons.csproj",
       "packagesPath": "C:\\Users\\Домашний\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Домашний\\Documents\\RedHat App\\s2i-dotnetcore-ex\\app\\obj\\",
+      "outputPath": "C:\\dev\\SberSeasons\\app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

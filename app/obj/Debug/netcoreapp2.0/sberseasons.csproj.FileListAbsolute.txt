@@ -1,0 +1,11 @@
+C:\dev\SberSeasons\app\bin\Debug\netcoreapp2.0\sberseasons.deps.json
+C:\dev\SberSeasons\app\bin\Debug\netcoreapp2.0\sberseasons.runtimeconfig.json
+C:\dev\SberSeasons\app\bin\Debug\netcoreapp2.0\sberseasons.runtimeconfig.dev.json
+C:\dev\SberSeasons\app\bin\Debug\netcoreapp2.0\sberseasons.dll
+C:\dev\SberSeasons\app\bin\Debug\netcoreapp2.0\sberseasons.pdb
+C:\dev\SberSeasons\app\obj\Debug\netcoreapp2.0\sberseasons.csprojResolveAssemblyReference.cache
+C:\dev\SberSeasons\app\obj\Debug\netcoreapp2.0\sberseasons.csproj.CoreCompileInputs.cache
+C:\dev\SberSeasons\app\obj\Debug\netcoreapp2.0\sberseasons.AssemblyInfoInputs.cache
+C:\dev\SberSeasons\app\obj\Debug\netcoreapp2.0\sberseasons.AssemblyInfo.cs
+C:\dev\SberSeasons\app\obj\Debug\netcoreapp2.0\sberseasons.dll
+C:\dev\SberSeasons\app\obj\Debug\netcoreapp2.0\sberseasons.pdb
