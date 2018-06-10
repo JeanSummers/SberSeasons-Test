@@ -1,0 +1,11 @@
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\Sberbank.deps.json
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\Sberbank.runtimeconfig.json
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\Sberbank.runtimeconfig.dev.json
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\Sberbank.dll
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\Sberbank.pdb
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\Sberbank.csprojResolveAssemblyReference.cache
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\Sberbank.csproj.CoreCompileInputs.cache
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\Sberbank.AssemblyInfoInputs.cache
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\Sberbank.AssemblyInfo.cs
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\Sberbank.dll
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\Sberbank.pdb

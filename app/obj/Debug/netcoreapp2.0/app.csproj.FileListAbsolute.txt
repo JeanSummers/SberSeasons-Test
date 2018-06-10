@@ -1,0 +1,11 @@
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\app.deps.json
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\app.runtimeconfig.json
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\app.runtimeconfig.dev.json
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\app.dll
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\bin\Debug\netcoreapp2.0\app.pdb
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\app.csprojResolveAssemblyReference.cache
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\app.csproj.CoreCompileInputs.cache
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\app.AssemblyInfoInputs.cache
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\app.AssemblyInfo.cs
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\app.dll
+C:\Users\Домашний\Documents\RedHat App\s2i-dotnetcore-ex\app\obj\Debug\netcoreapp2.0\app.pdb
