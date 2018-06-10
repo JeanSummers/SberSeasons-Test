@@ -24,7 +24,8 @@ namespace app.Controllers
         {
             return View();
         }
-    
+
+    // TODO: Automate news posting
         public IActionResult News1()
         {
             return View();
