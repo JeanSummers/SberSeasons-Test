@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using app.Models;
 using sberseasons.Models;
+using System.Xml;
 
 namespace app.Controllers
 {
@@ -40,7 +37,30 @@ namespace app.Controllers
             }
         };
 
-       
+        private string CreateItem(GetRssFeed.Models.Item item)
+        {
+            return "<p>" +
+                "<h3>" + item.Title + "</h3><br>" +
+                item.Description + "<br>" +
+                "<a href=\"" + item.Link + "\">Читать далее...</a>" +
+                "</p>";
+        }
+
+        public IActionResult RssFeed()
+        {
+            string rss = "https://lenta.ru/rss/top7";
+
+            var channel = GetRssFeed.GetRssFeed.Get(rss, "", "").Channels[0];
+
+            string[] data = new string[10];
+
+            for (int i = 0; (i < channel.Items.Count) && (i < 10); i++)
+                data[i] = CreateItem(channel.Items[i]);
+
+            ViewBag.data = data;
+
+            return View();
+        }
 
         public IActionResult Index()
         {

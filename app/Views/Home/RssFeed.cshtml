@@ -1,0 +1,13 @@
+
+@{
+    ViewData["Title"] = "RssFeed";
+}
+
+<div class="inner">
+    @for (int i = 0; i < ViewBag.data.Length; i++)
+    {
+        @Html.Raw(ViewBag.data[i])
+        <hr class="major">
+    }
+</div>
+
