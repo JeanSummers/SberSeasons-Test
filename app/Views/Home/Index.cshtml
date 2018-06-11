@@ -1,52 +1,36 @@
 @{
-  ViewData["Title"] = "Главная страница";
+    ViewData["Title"] = "Главная страница";
 }
 
 <section id="three" class="wrapper align-center">
-  <header class="align-center">
-    <h2>Новостная лента</h2>
-    <p>В процессе разработки</p>
-  </header>
+    <header class="align-center">
+        <h2>Новостная лента</h2>
+        <p>В процессе разработки</p>
+    </header>
 
 
-  <div class="inner">
-    <div class="flex flex-2">
-      <article>
-        <div class="image round">
-          <img src="images/pic01.jpg" alt="Pic 01" />
+    <div class="inner">
+        <div class="flex flex-2">
+            @for (int i = 0; i < ViewBag.News.Length; i++)
+            {
+            <article>
+                <div class="image round">
+                    <img src="@(ViewBag.News[i].mainImg)" alt="Pic 01" />
+                </div>
+                <header>
+                    <h3>@Html.Raw(ViewBag.News[i].headerSmall)</h3>
+                </header>
+                <p>@Html.Raw(ViewBag.News[i].shortHTML)</p>
+                <footer>
+                    <a class="button" asp-controller="Home" asp-action="News" asp-route-number="@i">Читать далее</a>
+                </footer>
+            </article>
+            }
         </div>
-        <header>
-          <h3>Сбербанк захотел выйти<br> из-под контроля государства</h3>
-        </header>
-        <p>
-          Глава Сбербанка Герман Греф призвал<br> государство продать контрольную долю в крупнейшей <br>финансовой организации России
-        </p>
-        <footer>
-          <a class="button" asp-controller="Home" asp-action="News1">Читать далее</a>
-        </footer>
-      </article>
-      <article>
-        <div class="image round">
-          <img src="images/pic02.jpg" alt="Pic 02" />
-        </div>
-        <header>
-          <h3>
-            В работе трейдинговой платформы <br>Сбербанка произошел сбой
-          </h3>
-        </header>
-        <p>
-          В работе брокера Сбербанка произошел кратковременный <br>технический сбой.
-          О проблемах с проведением <br>операций сообщил РБК клиент банка
-        </p>
-        <footer>
-          <a class="button" asp-controller="Home" asp-action="News2">Читать далее</a>
-        </footer>
-      </article>
     </div>
-  </div>
 </section>
 
 
 <footer id="footer">
-  SberSeasons Москва 2018 год
+    SberSeasons Москва 2018 год
 </footer>

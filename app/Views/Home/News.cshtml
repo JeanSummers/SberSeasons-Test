@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "News";
+}
+
+<hr class="major">
+
+<div class="inner">
+
+    <header>
+        <h3>@Html.Raw(ViewBag.NewsData.header)</h3>
+    </header>
+
+    @await Html.PartialAsync((string)ViewBag.NewsData.fullHTML)
+
+</div>
+
+<hr class="major">
